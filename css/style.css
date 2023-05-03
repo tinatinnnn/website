@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 700;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --white:#FFFFFF;
+    --black:#141414;
+    --gray:#505050;
+}
+
+
+.header {
+   width: 100%;
+   padding: 1em 1.5em 18.84px 1.25em;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.logo-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Header-h1{
+font-style: normal;
+font-size: 13.5522px;
+line-height: 108.2%;
+letter-spacing: -0.03em;
+color: var(--black);
+
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+
+}
+
+li {
+    font-style: normal;
+font-weight: 600;
+font-size: 1.3em;
+line-height: 15px;
+text-align: right;
+color: var(--black);
+
+cursor: pointer;
+
+}
+li:nth-child(2) {
+    margin-left: 2em;
+}
+
+.container{
+    width: 100%;
+    height: 293px;
+    background-image: url('../images/hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.8em 0.64em 0.8em;
+    color: var(--white);
+    justify-content: end;
+    gap: 8px;
+}
+.container-h1{
+font-style: normal;
+font-weight: 700;
+font-size: 2em;
+line-height: 108.2%;
+letter-spacing: -0.03em;
+
+}
+.container-small {
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 15px;
+color:var(--white)
+
+}
+.container-p{
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 20px;
+color: var(--white);
+padding: 1em 0 0 0 ;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.laptop-div{
+    width: 100%;
+   
+    border-radius: 3px;
+    margin-top: 2.125em;
+    padding: 0 20px;
+}
+.laptop-div img {
+    width: 100%;
+    height: 232px;
+}
+.laptop-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+.laptop-small {
+    font-style: normal;
+font-weight: 400;
+font-size: 14.1735px;
+line-height: 18px;
+color: var(--black);
+margin-top: 1.14em;
+}
+.laptop-h1{
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 108.2%;
+color: var(--black);
+margin-top: 0.5625em;
+}
+.laptop-p{
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 125%;
+color: #505050;
+margin-top: 0.5625rem;
+}
+
+/************viee-page********************/
+.container-two{
+    padding: 1em 1.5em 18.84px 1.25em;
+    /*padding:  0.8em 0.64em 0.8em;*/
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.article-image{
+    width: 100%;
+   
+    border-radius: 3px;
+    margin-top: 2.125em;
+    padding: 1em 1.5em 18.84px 1.25em;
+}
+.article-image img {
+    width: 100%;
+    height: 191px;
+}
+.text-content{
+    padding: 2em 0 0 0;
+}
+.description{
+    padding: 2em 0 0 0;
+    font-size: 1em;
+}
+.laptop-blog{
+    padding: 2em 0 0 0;
+}
+.center{
+    text-align: center;
+    display: block;
+    padding: 3.25em 0 0 0;
+    font-size: 1rem;
+    line-height:20.11px ;
+    color: var(--black);
+}
+p{
+    padding: 9px 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+/*************user-about*******/
+.user-img{
+    padding:1.25em ;
+}
+.text-content-about{
+    padding:1.25em ;
+}
+
+.text-about{
+    padding-left: 1.25em;
+}
+/*************desktop add-section****************/
+.main-desktop{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.laptop-div-desktop{
+    width: 100%;
+   
+    border-radius: 3px;
+    margin-top: 2.125em;
+    padding: 0 20px;
+}
+.laptop-div-desktop img {
+    width: 100%;
+    height: 232px;
+}
+.laptop-content-desktop{
+    display: flex;
+    flex-direction: column;
+    
+}
+.laptop-small {
+    font-style: normal;
+font-weight: 400;
+font-size: 14.1735px;
+line-height: 18px;
+color: var(--black);
+margin-top: 1.14em;
+}
+.laptop-h1{
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 108.2%;
+color: var(--black);
+margin-top: 0.5625em;
+}
+.laptop-p{
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 125%;
+color: #505050;
+margin-top: 0.5625rem;
+}
+.main-desktop{
+    display: none;
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    .header{
+    width:1085px ;
+    }
+   .main{
+    display: flex;
+    flex-direction: row;
+   }
+   .main-desktop{
+    display: flex;
+    flex-direction: row;
+   
+   }
+   .mobile{
+    display: none;
+   }
+   .Header-h1{
+    font-size:43px;
+    line-height:43.28px ;
+   }
+   .container-p{
+    width:614.84px ;
+    color:var(--white);
+   }
+   /************view************/
+   .container-two{
+    margin-left:16.25em;
+    display: block;
+   }
+   .text-content{
+    margin-left:16.25em;
+   }
+   .container-p{
+    color: var(--black);
+   }
+   .none{
+    display:none;
+   }
+   /***************user-about***************/
+   .center-flex{
+    display: flex;
+    align-items: center;
+   }
+   .text-content-about{
+   width: 764px;
+   }
+   .div-content{
+    padding-left: 121px;
+   }
+   .color{
+    color: var(--black);
+   }
+
+   }
+
+
+/*********chemi komentarebi********/
+/*1anu figmashi ufro patara zomis aris tviton es saiti da headershi is miweria rac figmashi aris mititebuli magram tviton medyas aweria 1200 da mito xo araa?
+/*2 da meore gverdis view pageshi surati aris gawelili da ver gavakete ise rogorc dizainshia  fotoze medyashi zomebs ar macvlevinebs da verc flex it davayene centrishi
+/*3 mobiulurze fotoebi wasashlelii display nane s roca vwer mere desktopzec isheleba
+/*4bolo page shi paragrafi ver gamovachine  mobiluris versiaze danarcheni mgooni wava tu ar wava da kide gavaketeb 
+
+   
